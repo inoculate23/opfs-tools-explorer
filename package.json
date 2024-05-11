@@ -14,7 +14,7 @@
   "module": "dist/opfs-tools-explorer.mjs",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "/"
   ],
   "dependencies": {
     "@emotion/react": "11.9.0",
