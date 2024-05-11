@@ -1,0 +1,55 @@
+.filePreviewer {
+  background-color: #fbfbfb;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+
+  border: 1px solid #eee;
+  padding: 4px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  font-weight: bold;
+}
+
+.closeIconWrap {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.textarea {
+  width: 100%;
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.saveBtn {
+  margin: 8px;
+  width: 100%;
+}
+
+.fsOpsWrap {
+  display: none;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 700px) {
+  .filePreviewer {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+  }
+  .fsOpsWrap {
+    display: flex;
+  }
+}
