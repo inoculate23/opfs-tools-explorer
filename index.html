@@ -7,8 +7,10 @@
   <meta name="theme-color" content="#000000">
 
   <title>opfs-tools explorer</title>
+  <script src="https://cdn.jsdelivr.net/npm/opfs-tools-explorer"></script>
+
   <style>
-    body {
+    html, body {
       min-height: 100vh;
       margin: 0;
     }
@@ -34,11 +36,13 @@
     }
   </style>
  
-
+  <script type="module" src="./main2.js"></script>
 </head>
 
 <body>
-
+<script>
+  OTExplorer.init();
+</script>
   
   <div style="text-align: center; margin-top: 20px;">
     <button id="add-test-file">Add Test Files</button>
@@ -48,7 +52,7 @@
         href="https://github.com/hughfenghen/opfs-tools-explorer">opfs-tools-explorer</a>
     </p>
   </div>
-  <script type="module" src="./main2.js"></script>
+
 
 </body>
 
